@@ -8,7 +8,7 @@ import IconSparkleLoader from "@/media/IconSparkleLoader";
 
 interface SimliOpenAIPushToTalkProps {
   simli_faceid: string;
-  openai_voice: "onyx";
+  openai_voice: "echo" | "alloy" | "shimmer";
   initialPrompt: string;
   onStart: () => void;
   onClose: () => void;
