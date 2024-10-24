@@ -345,7 +345,7 @@ const SimliOpenAI: React.FC<SimliOpenAIProps> = ({
               <IconSparkleLoader className="h-[20px] animate-loader" />
             ) : (
               <span className="font-abc-repro-mono font-bold w-[164px]">
-                Test Interaction
+                Talk To Genghis
               </span>
             )}
           </button>
@@ -359,7 +359,7 @@ const SimliOpenAI: React.FC<SimliOpenAIProps> = ({
                 )}
               >
                 <span className="font-abc-repro-mono group-hover:text-black font-bold w-[164px] transition-all duration-300">
-                  Stop Interaction
+                Talk To Genghis
                 </span>
               </button>
             </div>
