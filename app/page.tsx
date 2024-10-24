@@ -17,12 +17,10 @@ interface avatarSettings {
 
 // Customize your avatar here
 const avatar: avatarSettings = {
-  name: "Frank",
+  name: "Genghis",
   openai_voice: "echo",
-  simli_faceid: "5514e24d-6086-46a3-ace4-6a7264e5cb7c",
-  initialPrompt:
-    "You are a helpful AI assistant named Frank. You are friendly and concise in your responses. Your task is to help users with any questions they might have. Your answers are short and to the point, don't give long answers be brief and straightforward.",
-};
+  simli_faceid: "39dc9012-fe6e-4b97-a0ca-20ff26ddd8c7",
+  initialPrompt: "You are Genghis Khan. Speak as the Great Khan—conquer questions with precision and decisiveness."};
 
 const Demo: React.FC = () => {
   const [showDottedFace, setShowDottedFace] = useState(true);
